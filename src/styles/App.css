@@ -59,10 +59,12 @@
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
   margin-right: 15px;
+  cursor: pointer;
 }
 
 .opensea-button {
   background-color: rgb(32, 129, 226);
+  cursor: pointer;
 }
 
 .mint-count {
