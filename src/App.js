@@ -7,15 +7,15 @@ import myEpicNft from './utils/MyEpicNFT.json'
 // Constants
 const TWITTER_HANDLE = 'kuicpet'
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`
-const OPENSEA_LINK = ''
-const TOTAL_MINT_COUNT = 50
+// const OPENSEA_LINK = ''
+// const TOTAL_MINT_COUNT = 50
 const CONTRACT_ADDRESS = '0x7F975688aA9Fa3297AB0D276787d75BaBA8d3034'
 
 const App = () => {
   const [currentAccount, setCurrentAccount] = useState('')
   const [minting, setMinting] = useState(false)
-  const [openSeaLink, setOpenSeaLink] = useState(OPENSEA_LINK)
-  const [mintCounts, setMintCounts] = useState([])
+  // const [openSeaLink, setOpenSeaLink] = useState(OPENSEA_LINK)
+  // const [mintCounts, setMintCounts] = useState([])
   // Check if Wallet Connected
   const checkIfWalletIsConnected = async () => {
     const { ethereum } = window
